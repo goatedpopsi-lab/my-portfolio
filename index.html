@@ -2,76 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prosper Olamide Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <!-- NAVBAR -->
-    <div class="navbar">
+    <nav class="navbar">
         <h2>Prosper Olamide</h2>
 
         <div class="nav-links">
-            <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-
             <button onclick="toggleMode()">🌙 Mode</button>
         </div>
-    </div>
+    </nav>
 
     <!-- HOME -->
-    <section class="home" id="home">
-        <img src="https://picsum.photos/200" alt="profile">
+    <section class="home">
+        <img src="profile.jpg" alt="profile image">
+
         <h1><span id="typing"></span></h1>
         <p>Frontend Developer and more</p>
+
         <button onclick="sayHi()">Say Hi</button>
     </section>
 
     <!-- ABOUT -->
-    <section class="section" id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
         <p>
             I am Prosper Olamide Bamidele, a frontend developer in training.
-            I build modern websites using HTML, CSS, and JavaScript, and I’m constantly learning new technologies.
+            I build modern websites using HTML, CSS, and JavaScript.
         </p>
     </section>
 
-    <!-- SKILLS -->
-    <section class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
-
     <!-- PROJECTS -->
-    <section class="section" id="projects">
+    <section id="projects" class="section">
         <h2>Projects</h2>
 
         <div class="projects">
-
             <div class="project-card">
-    <h3>My First Project</h3>
-    <p>This is my first frontend project built while learning.</p>
+                <h3>My First Project</h3>
+                <p>This is my first frontend project.</p>
 
-    <div class="project-buttons">
-        <button>Live Demo</button>
-        <button>GitHub</button>
-    </div>
-</div>
+                <div class="project-buttons">
+                    <button>Live Demo</button>
+                    <button>GitHub</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- CONTACT -->
-    <section class="section" id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <p>Email: prosperolamide0@gmail.com</p>
     </section>
 
+    <!-- JS -->
     <script src="script.js"></script>
+
 </body>
 </html>
